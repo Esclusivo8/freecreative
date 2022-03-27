@@ -7,6 +7,7 @@ header {
     position: absolute;
     width: 100%;
     padding-top: 32px;
+    z-index: 2;
 }
 
 a {
@@ -44,8 +45,20 @@ a {
     margin-left: 22px;
 }
 
+.mrl-32special {
+    margin-left: -32px;
+}
+
+.mrl-12special {
+    margin-left: -12px;
+}
+
 .mrl-30 {
     margin-left: 30px;
+}
+
+.mrl-150 {
+    margin-left: 150px;
 }
 
 .mrb-65 {
@@ -54,6 +67,10 @@ a {
 
 .mrb-15 {
     margin-bottom: 15px;
+}
+
+.mrb-30 {
+    margin-bottom: 30px;
 }
 
 .mrb-40 {
@@ -80,12 +97,24 @@ a {
     margin-bottom: 21px;
 }
 
+.mrb-60 {
+    margin-bottom: 60px;
+}
+
 .w-100 {
     width: 100%;
 }
 
 .w-50 {
     width: 50%;
+}
+
+.w-20 {
+    width: 15%;
+}
+
+.w-380 {
+    width:380px;
 }
 
 .mw-634 {
@@ -98,6 +127,10 @@ a {
 
 .mw-431 {
     max-width: 431px;
+}
+
+.mw-467 {
+    max-width: 467px;
 }
 
 .font-style-logo {
@@ -149,6 +182,18 @@ nav a {
     background-size: cover;
     height: 100vh;
     padding-top: 344px;
+}
+
+.main-banner.item2 {
+    background-image: url('../images/femail.jpg');
+}
+
+.main-banner.item3 {
+    background-image: url('../images/childmilk.jpg');
+}
+
+.main-banner.item4 {
+    background-image: url('../images/mobile.jpg');
 }
 
 .title {
@@ -205,6 +250,15 @@ nav a {
     color: #181818;
 }
 
+.fnt-what-is-style-title {
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #181818;
+    margin-bottom: 15px;
+}
+
 .content-body-right {
     width: 50%;
     margin-left: 30px;
@@ -229,6 +283,11 @@ nav a {
 
 .flex-list {
     display: flex;
+}
+
+.flex-list-text {
+    display: flex;
+    justify-content: space-between;
 }
 
 .flex-item {
@@ -281,7 +340,7 @@ span.base-style {
 }
 
 .content-images {
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 
 .content-images div img {
@@ -315,9 +374,6 @@ span.base-style {
     padding: 0;
 }
 
-.final-content {
-    padding-bottom: 150px;
-}
 
 .subtitle-secondary {
     font-family: '20 Kopeek';
@@ -327,11 +383,19 @@ span.base-style {
     margin: auto;
 }
 
+.subtitle-secondary-final {
+    font-family: '20 Kopeek';
+    font-size: 26px;
+    line-height: 110%;
+    color: #181818;
+}
+
 .what-is-guideline {
     font-family: '20 Kopeek';
     font-size: 26px;
     line-height: 110%;
     color: #FFFFFF;
+    padding-top: 15px;
     padding-bottom: 50px;
     display: inherit;
 }
@@ -346,7 +410,7 @@ span.base-style {
 
 .blu-button {
     display: inline-block;
-    padding: 23px 47px;
+    padding: 19px 47px;
     background: #2B59C3;
     border: 1px solid #181818;
     box-sizing: border-box;
@@ -355,9 +419,11 @@ span.base-style {
     font-size: 26px;
     height: 71px;
     color: #FFFFFF;
-    margin-top: 100px;
-    margin-left: 90px;
+    margin-left: 350px;
+}
 
+.blu-button:hover {
+    background-color: mediumpurple;
 }
 
 .text-left p {
@@ -370,6 +436,14 @@ span.base-style {
 
 .customer-field {
     width: 350px;
+    height: 71px;
+    border: 1px solid #181818;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.customer-field-long {
+    width: 445px;
     height: 71px;
     border: 1px solid #181818;
     box-sizing: border-box;
@@ -393,6 +467,16 @@ span.base-style {
     color: #FFFFFF;
 }
 
+.real-button:hover {
+    background-color: mediumpurple;
+}
+
+.d-flex-special {
+    display: -webkit-inline-box;
+    justify-content: space-between;
+    align-items: center;
+}
+
 @font-face {
     font-family: '20 Kopeek';
     src: url('../fonts/20Kopeek-Book.eot');
@@ -410,6 +494,179 @@ span.base-style {
     padding: 0;
 }
 
-.web-flex {
-    display: -webkit-box;
+.mrr-11 {
+    margin-right: 11px;
+}
+
+.secondary-banner {
+    background-image: url('../images/secondarybanner.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding-top: 432px;
+}
+
+.title-white {
+    font-family: '20 Kopeek';
+    font-size: 55px;
+    line-height: 100%;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.white {
+    display: flex;
+    font-family: '20 Kopeek';
+    font-size: 15px;
+    color: #181818;
+    width: 20%;
+    color: #FFFFFF;
+}
+
+.subtitle-und-image {
+    font-family: '20 Kopeek';
+    font-size: 26px;
+    line-height: 110%;
+    color: #181818;
+}
+
+.display-text {
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    color: #181818;
+    width: 20%;
+}
+.text-description {
+    padding-bottom: 150px;
+}
+
+.final-content {
+    padding-top: 150px;
+}
+
+.boxes {
+    background: #2B59C3;
+    border-radius: 10px;
+    width: 255px;
+    margin-right: 30px;
+    font-family: '20 Kopeek';
+    font-size: 18px;
+    height: 131px;
+    color: #FFFFFF;
+    padding-left: 13px;
+    padding-top: 6px;
+}
+
+.boxes:first-child {
+    height: 106px;
+}
+
+.boxes:last-child {
+    margin-right: 29px;
+    height: 169px;
+}
+
+.pdb {
+    padding-bottom: 25px;
+}
+
+.pdb-last {
+    padding-bottom: 36px;
+}
+
+.owl-dots {
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.owl-dot span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #868686;
+    border-radius: 50%;
+}
+
+.owl-dot {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.owl-dot.active span{
+    background-color: yellow;
+}
+
+.owl-dot.active:hover span {
+    width: 15px;
+    height: 15px;
+    transition: 0.3s;
+}
+
+#accordion {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.ui-accordion .ui-accordion-header {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin: 2px 0 0 0;
+    padding: 0.5em 0.5em 0.5em 0.7em;
+    font-size: 100%;
+    background-color: #fce7f2;
+    font-size: 28px;
+    color: #860da6;
+}
+
+.ui-accordion .ui-accordion-content {
+    padding: 1em 2.2em;
+    border-top: 0;
+    overflow: auto;
+    background-color: #fef5fa;
+}
+
+.ui-accordion .ui-accordion-header.ui-state-active {
+    background-color: #fef5fa;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: none;
+}
+
+.ui-accordion .ui-accordion-header:before{
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #860da6;
+    border-radius: 50%;
+    margin-right: 7px;
+    position: relative;
+    top: -5px;
+}
+
+.ui-icon{
+    position: absolute;
+    right: 15px;
+    background-image: none;
+    background-position: 0;
+    text-indent: 0;
+    width: auto;
+    height: auto;
+}
+
+.ui-icon:after{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f054";
+}
+
+.ui-accordion .ui-accordion-header.ui-state-hover span {
+    background-image: none;
+}
+
+.ui-accordion .ui-accordion-header.ui-state-active span {
+    transform: rotate(90deg);
 }

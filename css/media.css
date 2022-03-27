@@ -1,0 +1,5 @@
+@media only screen and (max-width: 768px) {
+    .main-banner{
+        background-image: url('../images/mobile.jpg');
+    }
+}
